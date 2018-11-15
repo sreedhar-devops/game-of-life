@@ -2,7 +2,7 @@ node {
    
     stage('SCM') {
     // some block
-    git 'https://github.com/wakaleo/game-of-life.git'
+    git 'https://github.com/sreedhar-devops/game-of-life'
 }
 
 stage('BUILD and PACKAGE') {
